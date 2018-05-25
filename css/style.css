@@ -1,0 +1,167 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+body {
+  font-family: Tahoma, Verdana, sans-serif;
+  background-image: url(./../images/p.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1028px;
+}
+
+ul {
+  background-color: #07518f;
+  display: flex;
+  justify-content: flex-end;
+  height: 35px;
+}
+
+  li {
+  color: #60b5ed;
+  list-style: none;
+  font-size: 14px;
+  padding:  8px 15px 0px 15px;
+  height: 27px;
+}
+
+li:hover {
+  background-color: #4eabda;
+  color: #ffffff;
+}
+
+li.flag-icon {
+  width: 140px;
+  text-align: right;
+  background-image: url(./../images/flag-icon.png);
+  background-position: 10% 70%;
+  background-repeat: no-repeat;
+  padding-left: 0px;
+  border-right: solid 1px #60b5ed;
+  border-left:  solid 1px #60b5ed;
+}
+
+li.flag-icon{
+  color: #ffffff;
+}
+
+a.menu {
+  text-decoration: none;
+}
+
+li.last{
+  color: #ffffff;
+  margin-right: 20px;
+  background: linear-gradient(#50afdc, #2e7ac4);
+
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+span {
+  text-decoration: underline;
+}
+
+div.black-block {
+  width: 560px;
+  height: 615px;
+
+  margin-top: 215px;
+}
+
+.Cadastre-se {
+  color: #ffffff;
+  text-align: center;
+  height: 60px;
+  width: inherit;
+  display: table-cell;
+  vertical-align: middle;
+  background: rgba(0, 0, 0, 0.63);
+  border-bottom: 2px solid transparent;
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+
+form {
+  margin-top: 2px;
+  height: 558px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.63);
+}
+
+input.registration {
+  width: 260px;
+  color: #ffffff;
+  background-color: #0f0e0e;
+  border: 0;
+  border-bottom: 1px solid #4b4b4b;
+  height: 35px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  padding-left: 16px;
+}
+
+input.registration:hover {
+  background-color: #1b5288;
+}
+
+/*input.registration:active {
+  background-color: #1b5288;
+}*/
+
+::placeholder {
+  color: #cccccc;
+}
+
+input[type=image] {
+  margin-top: 35px;
+}
+
+
+div.ou {
+  color: #999999;
+  font-size: 14px;
+  width: 276px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  margin: 20px 0 20px 0;
+  text-align: center;
+  background-image: url(./../images/stripe.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+p.checkbox {
+  color: #4eabda;
+  font-size: 14px;
+  width: 276px;
+  height: 35px;
+  text-align: left;
+}
+
+input[type=checkbox] {
+  margin-right: 7px;
+}
+
+input[type=submit] {
+  height: 35px;
+  width: 150px;
+  background: linear-gradient(#50afdc, #2e7ac4);
+  border: 1px solid #5e9fbe;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+p.agree {
+  font-size: 11px;
+  color: #cccccc;
+  text-align: center;
+  line-height: 1.5;
+  margin-top: 18px;
+}
